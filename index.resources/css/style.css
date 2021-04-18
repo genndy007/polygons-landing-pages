@@ -1,0 +1,38 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans:wght@400;600&display=swap');
+
+/* Normal box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #faf0ca;
+}
+
+/* All text align */
+.wrapper {
+  max-width: 1755px;
+  margin: 0 auto;
+}
+
+/* Logo and its bg */
+
+.logo-wrapper {
+  padding-left: 65px;
+  padding-top: 32px;
+  padding-bottom: 50px;
+  padding-right: 35px;
+}
+
+.header__logo-pic {
+  width: 115px;
+  height: 115px;
+  background: #363326;
+}
