@@ -23,16 +23,22 @@ body {
 }
 
 /* Logo and its bg */
+.header__logo_wrapper {
+  display: inline-block;
 
-.logo-wrapper {
   padding-left: 65px;
   padding-top: 32px;
   padding-bottom: 50px;
   padding-right: 35px;
 }
 
-.header__logo-pic {
+.header__logo_pic {
   width: 115px;
   height: 115px;
   background: #363326;
+}
+
+/* Logo text */
+.header__logo_text {
+  display: inline-block;
 }
