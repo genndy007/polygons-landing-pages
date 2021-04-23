@@ -21,7 +21,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1755px;
     margin: 0 auto;
 }
 
@@ -30,7 +29,6 @@ body {
     display: flex;
     margin-left: 65px;
     margin-top: 32px;
-    margin-bottom: 50px;
 }
 
 .header__logo_pic {
@@ -50,18 +48,19 @@ body {
 }
 
 .header__logo_text_name {
-    font-size: 4em;
+    font-size: 64px;
 }
 
 .header__logo_text_desc {
     margin-left: 5px;
-    font-size: 1.5em;
+    font-size: 28px;
 }
 
 /* Menu items */
 
 .navigation {
     display: flex;
+    margin-top: 50px;
 }
 .navigation__menu_list {
     list-style: none;
@@ -71,17 +70,77 @@ body {
 }
 
 .navigation__menu_list li {
-    font-size: 2em;
+    font-size: 36px;
     font-family: Montserrat;
     font-weight: 600;
-    margin-left: 2em;
+    margin-left: 73px;
+}
+
+.navigation__menu_list li:first-child {
+    margin-left: 0px;
 }
 
 .navigation__menu_list:last-child {
-    margin-right: 65px;
+    margin-right: 100px;
 }
 
 .navigation__menu_list li a {
     text-decoration: none;
     color: #363326;
+}
+
+/* Musk line */
+.musk {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.musk__text_container {
+    background-color: #523e49;
+    color: #faf0ca;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.musk__text_heading {
+    font-size: 48px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+
+    margin-left: 65px;
+    margin-top: 39px;
+}
+
+.musk__text_desc {
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 41px;
+
+    margin-left: 65px;
+    margin-top: 11px;
+}
+
+.musk__button_wrap {
+    margin-left: 65px;
+    margin-bottom: 99px;
+}
+
+.musk__button {
+    background-color: #109648;
+    padding: 33px 113px;
+    border-radius: 66px;
+    color: #faf0ca;
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.musk__image {
+    height: 458px;
 }
