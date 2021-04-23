@@ -144,3 +144,59 @@ body {
 .musk__image {
     height: 458px;
 }
+
+/* Einstein line */
+.einstein {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.einstein__image {
+    height: 458px;
+}
+
+.einstein__text_container {
+    background-color: #212121;
+    color: #faf0ca;
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.einstein__text_heading {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 48px;
+
+    margin-right: 100px;
+    margin-top: 44px;
+}
+
+.einstein__text_desc {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+
+    margin-right: 100px;
+    margin-top: 19px;
+}
+
+.einstein__button_wrap {
+    margin-right: 100px;
+    margin-bottom: 99px;
+}
+
+.einstein__button {
+    background-color: #109648;
+    padding: 33px 54px;
+    border-radius: 66px;
+    color: #faf0ca;
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+}
