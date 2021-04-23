@@ -200,3 +200,57 @@ body {
     font-weight: 600;
     font-size: 36px;
 }
+
+/* Maestro line */
+
+.maestro {
+    display: flex;
+}
+
+.maestro__text_container {
+    background-color: #71586d;
+    color: #faf0ca;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maestro__text_heading {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 48px;
+
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.maestro__text_desc {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    line-height: 41px;
+
+    margin-left: 65px;
+    margin-top: 21px;
+}
+
+.maestro__button_wrap {
+    margin-left: 65px;
+    margin-bottom: 99px;
+}
+
+.maestro__button {
+    background-color: #109648;
+    padding: 33px 54px;
+    border-radius: 66px;
+    text-decoration: none;
+    color: #faf0ca;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.maestro__image {
+    height: 490px;
+}
