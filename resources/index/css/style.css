@@ -254,3 +254,38 @@ body {
 .maestro__image {
     height: 490px;
 }
+
+/* Change life block */
+
+.change {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.change__text {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 60px;
+
+    margin-top: 170px;
+}
+
+.change__buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 70px;
+}
+
+.change__buttons a {
+    background: #109648;
+    border-radius: 66px;
+    padding: 33px 80px;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    color: #faf0ca;
+    text-decoration: none;
+}
