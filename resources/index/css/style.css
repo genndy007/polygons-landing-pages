@@ -16,6 +16,10 @@ body {
     background: #faf0ca;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* All text align */
 .wrapper {
     display: flex;
@@ -85,7 +89,6 @@ body {
 }
 
 .navigation__menu_list li a {
-    text-decoration: none;
     color: #363326;
 }
 
@@ -134,7 +137,6 @@ body {
     padding: 33px 113px;
     border-radius: 66px;
     color: #faf0ca;
-    text-decoration: none;
 
     font-family: Montserrat;
     font-weight: 600;
@@ -194,7 +196,6 @@ body {
     padding: 33px 54px;
     border-radius: 66px;
     color: #faf0ca;
-    text-decoration: none;
 
     font-family: Montserrat;
     font-weight: 600;
@@ -243,7 +244,7 @@ body {
     background-color: #109648;
     padding: 33px 54px;
     border-radius: 66px;
-    text-decoration: none;
+
     color: #faf0ca;
 
     font-family: Montserrat;
@@ -287,5 +288,95 @@ body {
     font-weight: 600;
     font-size: 36px;
     color: #faf0ca;
-    text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #363326;
+    color: #faf0ca;
+
+    margin-top: 220px;
+    font-family: Montserrat;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__name_logo_rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 46px;
+}
+
+.footer__name {
+    font-weight: 600;
+    font-size: 64px;
+
+    margin-left: 70px;
+}
+
+.footer__slogan {
+    font-weight: 300;
+    font-size: 24px;
+
+    margin-left: 76px;
+    margin-top: 22px;
+}
+
+.footer__two_pics {
+    margin-left: 90px;
+}
+
+.footer__two_pics img {
+    height: 260px;
+
+    margin-top: 23px;
+}
+
+.footer__rights {
+    margin-left: 76px;
+    margin-bottom: 20px;
+    margin-top: 64px;
+}
+
+.footer ul li a {
+    color: #faf0ca;
+}
+
+.footer__services li:first-child,
+.footer__networks li:first-child,
+.footer__connect li:first-child {
+    font-weight: 600;
+}
+
+.footer__services li,
+.footer__networks li,
+.footer__connect li {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.footer__services {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 66px;
+}
+
+.footer__networks {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 66px;
+}
+
+.footer__connect {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 66px;
+    margin-right: 158px;
 }
