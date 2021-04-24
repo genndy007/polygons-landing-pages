@@ -1,0 +1,195 @@
+/* Adaptation for phones and tablets */
+
+/* Burger menu */
+
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: #eee;
+    height: 100%;
+    top: 0;
+    right: -200px;
+    transition: right 0.2s;
+    z-index: 2;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+
+    text-align: right;
+}
+
+.hidden-menu li {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.hidden-menu li:first-child {
+    margin-top: 100px;
+}
+
+.hidden-menu li a {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hidden-menu-ticker {
+    display: none;
+}
+
+.btn-menu {
+    color: #fff;
+    background-color: #666;
+    padding: 5px;
+    position: fixed;
+    top: 45px;
+    right: 40px;
+    cursor: pointer;
+    transition: right 0.23s;
+    z-index: 3;
+    width: 35px;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+.btn-menu span {
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all 0.1s linear 0.23s;
+    position: relative;
+}
+.btn-menu span.first {
+    margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+    right: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+    right: 0;
+}
+
+/* Desktop */
+@media screen and (min-width: 920px) {
+    .btn-menu {
+        display: none;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 920px) {
+    .navigation {
+        display: none;
+    }
+
+    .musk {
+        flex-direction: column;
+    }
+
+    .musk__image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .einstein {
+        flex-direction: column-reverse;
+    }
+
+    .einstein__image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .maestro {
+        flex-direction: column;
+    }
+
+    .maestro__image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .change__buttons {
+        flex-direction: column;
+    }
+
+    .change__buttons a {
+        margin: 40px;
+    }
+
+    .footer__services li,
+    .footer__networks li,
+    .footer__connect li {
+        font-size: 12px;
+    }
+
+    .musk__text_heading,
+    .musk__text_desc,
+    .einstein__text_heading,
+    .einstein__text_desc,
+    .maestro__text_heading,
+    .maestro__text_desc,
+    .change__text {
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+    .musk__button_wrap,
+    .einstein__button_wrap,
+    .maestro__button_wrap {
+        text-align: center;
+        margin: 40px auto;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .footer__name {
+        font-size: 18px;
+    }
+
+    .footer__slogan {
+        font-size: 12px;
+    }
+
+    .footer__pic1 {
+        display: none;
+    }
+
+    .footer__rights {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__logo_with_bg_and_text {
+        flex-direction: column;
+    }
+
+    .header__logo_text {
+        margin-left: 0px;
+    }
+
+    .header__logo_text_name {
+        font-size: 16px;
+        margin-left: 2px;
+    }
+
+    .header__logo_text_desc {
+        font-size: 10px;
+    }
+
+    .header__logo_pic {
+        display: none;
+    }
+
+    .btn-menu {
+        top: 30px;
+    }
+}
