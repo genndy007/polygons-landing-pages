@@ -31,18 +31,18 @@ a {
 /* Logo and its bg */
 .header__logo_with_bg_and_text {
     display: flex;
-    margin-left: 65px;
+    margin-left: 40px;
     margin-top: 32px;
 }
 
 .header__logo_pic {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     background-color: #363326;
 }
 
 .header__logo_text {
-    margin-left: 35px;
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -52,12 +52,12 @@ a {
 }
 
 .header__logo_text_name {
-    font-size: 64px;
+    font-size: 32px;
 }
 
 .header__logo_text_desc {
-    margin-left: 5px;
-    font-size: 28px;
+    margin-left: 3px;
+    font-size: 13px;
 }
 
 /* Menu items */
@@ -74,10 +74,10 @@ a {
 }
 
 .navigation__menu_list li {
-    font-size: 36px;
+    font-size: 20px;
     font-family: Montserrat;
     font-weight: 600;
-    margin-left: 73px;
+    margin-left: 50px;
 }
 
 .navigation__menu_list li:first-child {
@@ -85,7 +85,7 @@ a {
 }
 
 .navigation__menu_list:last-child {
-    margin-right: 100px;
+    margin-right: 40px;
 }
 
 .navigation__menu_list li a {
@@ -95,7 +95,9 @@ a {
 /* Musk line */
 .musk {
     display: flex;
-    margin-top: 50px;
+    justify-content: space-between;
+
+    margin-top: 30px;
     margin-bottom: 15px;
 }
 
@@ -103,48 +105,51 @@ a {
     background-color: #523e49;
     color: #faf0ca;
 
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .musk__text_heading {
-    font-size: 48px;
+    font-size: 28px;
     font-family: 'Open Sans';
     font-weight: 600;
 
-    margin-left: 65px;
+    margin-left: 40px;
     margin-top: 39px;
 }
 
 .musk__text_desc {
-    font-size: 30px;
+    font-size: 16px;
     font-family: 'Open Sans';
     font-weight: 400;
-    line-height: 41px;
+    line-height: 24px;
 
-    margin-left: 65px;
-    margin-top: 11px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .musk__button_wrap {
-    margin-left: 65px;
-    margin-bottom: 99px;
+    margin-left: 40px;
+    margin-bottom: 69px;
 }
 
 .musk__button {
     background-color: #109648;
-    padding: 33px 113px;
+    padding: 15px 63px;
     border-radius: 66px;
     color: #faf0ca;
 
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 18px;
 }
 
 .musk__image {
-    height: 458px;
+    height: 300px;
+    margin-right: 0px;
 }
 
 /* Einstein line */
@@ -154,13 +159,15 @@ a {
 }
 
 .einstein__image {
-    height: 458px;
+    height: 300px;
 }
 
 .einstein__text_container {
     background-color: #212121;
     color: #faf0ca;
     text-align: right;
+
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -170,36 +177,36 @@ a {
 .einstein__text_heading {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 48px;
+    font-size: 28px;
 
-    margin-right: 100px;
+    margin-right: 40px;
     margin-top: 44px;
 }
 
 .einstein__text_desc {
     font-family: 'Open Sans';
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 41px;
+    line-height: 24px;
 
-    margin-right: 100px;
-    margin-top: 19px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 .einstein__button_wrap {
-    margin-right: 100px;
-    margin-bottom: 99px;
+    margin-right: 40px;
+    margin-bottom: 69px;
 }
 
 .einstein__button {
     background-color: #109648;
-    padding: 33px 54px;
+    padding: 15px 63px;
     border-radius: 66px;
     color: #faf0ca;
 
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 18px;
 }
 
 /* Maestro line */
@@ -212,6 +219,8 @@ a {
     background-color: #71586d;
     color: #faf0ca;
 
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -220,40 +229,40 @@ a {
 .maestro__text_heading {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 48px;
+    font-size: 28px;
 
-    margin-left: 65px;
+    margin-left: 40px;
     margin-top: 40px;
 }
 
 .maestro__text_desc {
     font-family: 'Open Sans';
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 16px;
+    line-height: 24px;
 
-    margin-left: 65px;
-    margin-top: 21px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .maestro__button_wrap {
-    margin-left: 65px;
-    margin-bottom: 99px;
+    margin-left: 40px;
+    margin-bottom: 69px;
 }
 
 .maestro__button {
     background-color: #109648;
-    padding: 33px 54px;
+    padding: 15px 63px;
     border-radius: 66px;
 
     color: #faf0ca;
 
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 18px;
 }
 
 .maestro__image {
-    height: 490px;
+    height: 300px;
 }
 
 /* Change life block */
@@ -267,9 +276,9 @@ a {
 .change__text {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 60px;
+    font-size: 28px;
 
-    margin-top: 170px;
+    margin-top: 100px;
 }
 
 .change__buttons {
@@ -282,11 +291,11 @@ a {
 .change__buttons a {
     background: #109648;
     border-radius: 66px;
-    padding: 33px 80px;
+    padding: 15px 63px;
 
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 18px;
     color: #faf0ca;
 }
 
@@ -296,11 +305,11 @@ a {
     background-color: #363326;
     color: #faf0ca;
 
-    margin-top: 220px;
+    margin-top: 100px;
     font-family: Montserrat;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer__name_logo_rights {
@@ -308,26 +317,26 @@ a {
     flex-direction: column;
     justify-content: space-between;
 
-    margin-top: 46px;
+    margin-top: 40px;
 }
 
 .footer__name {
     font-weight: 600;
-    font-size: 64px;
+    font-size: 28px;
 
-    margin-left: 70px;
+    margin-left: 40px;
 }
 
 .footer__slogan {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 16px;
 
-    margin-left: 76px;
-    margin-top: 22px;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 .footer__two_pics {
-    margin-left: 90px;
+    margin-left: 40px;
 }
 
 .footer__two_pics img {
@@ -337,7 +346,9 @@ a {
 }
 
 .footer__rights {
-    margin-left: 76px;
+    font-size: 12px;
+
+    margin-left: 40px;
     margin-bottom: 20px;
     margin-top: 64px;
 }
@@ -346,37 +357,32 @@ a {
     color: #faf0ca;
 }
 
-.footer__services li:first-child,
-.footer__networks li:first-child,
-.footer__connect li:first-child {
-    font-weight: 600;
-}
-
 .footer__services li,
 .footer__networks li,
 .footer__connect li {
-    font-size: 36px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
-.footer__services {
-    display: flex;
-    flex-direction: column;
+.footer__services li:first-child,
+.footer__networks li:first-child,
+.footer__connect li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
 
-    margin-top: 66px;
+.footer__services,
+.footer__networks,
+.footer__connect {
+    margin-top: 45px;
+}
+
+.footer__services {
 }
 
 .footer__networks {
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 66px;
 }
 
 .footer__connect {
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 66px;
-    margin-right: 158px;
+    margin-right: 40px;
 }
