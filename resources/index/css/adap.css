@@ -192,4 +192,33 @@
     .btn-menu {
         top: 30px;
     }
+
+    /* Buttons font less */
+    .musk__button,
+    .einstein__button,
+    .maestro__button,
+    .change__buttons a {
+        font-size: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__name_slogan,
+    .footer__rights,
+    .footer__services li,
+    .footer__networks li,
+    .footer__connect li {
+        text-align: center;
+    }
+
+    .footer__connect li {
+        margin-left: 40px;
+    }
+
+    .footer__name_slogan,
+    .footer__rights {
+        margin-right: 40px;
+    }
 }
