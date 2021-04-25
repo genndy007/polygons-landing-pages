@@ -215,3 +215,90 @@ a {
     font-weight: 600;
     font-size: 14px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #363326;
+    color: #faf0ca;
+
+    margin-top: 100px;
+    font-family: Montserrat;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__name_logo_rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+.footer__name {
+    font-weight: 600;
+    font-size: 28px;
+
+    margin-left: 40px;
+}
+
+.footer__slogan {
+    font-weight: 300;
+    font-size: 16px;
+
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.footer__two_pics {
+    margin-left: 40px;
+}
+
+.footer__two_pics img {
+    height: 260px;
+
+    margin-top: 23px;
+}
+
+.footer__rights {
+    font-size: 12px;
+
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 64px;
+}
+
+.footer ul li a {
+    color: #faf0ca;
+}
+
+.footer__services li,
+.footer__networks li,
+.footer__connect li {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer__services li:first-child,
+.footer__networks li:first-child,
+.footer__connect li:first-child {
+    font-weight: 600;
+}
+
+.footer__services,
+.footer__networks,
+.footer__connect {
+    margin-top: 45px;
+}
+
+.footer__services {
+}
+
+.footer__networks {
+}
+
+.footer__connect {
+    margin-right: 40px;
+}
