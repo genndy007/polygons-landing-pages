@@ -179,3 +179,39 @@ a {
     font-weight: 600;
     font-size: 14px;
 }
+
+/* Not like part */
+
+.notlike {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.notlike__text {
+    color: #363326;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.notlike__button_wrap {
+    text-align: center;
+
+    align-self: center;
+}
+
+.notlike__button {
+    background-color: #109648;
+    padding: 15px 55px;
+    border-radius: 66px;
+
+    color: #faf0ca;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}

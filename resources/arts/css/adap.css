@@ -91,6 +91,18 @@
     .arts__pair {
         flex-direction: column;
     }
+
+    .notlike {
+        flex-direction: column;
+    }
+
+    .notlike__text {
+        text-align: center;
+    }
+
+    .notlike__button_wrap {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 600px) {
