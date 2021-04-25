@@ -87,6 +87,10 @@
     .navigation {
         display: none;
     }
+
+    .arts__pair {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 600px) {
