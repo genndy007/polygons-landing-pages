@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans:wght@400;600&display=swap');
+
+/* Normal box sizing */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #faf0ca;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* All text align */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Logo and its bg */
+.header__logo_with_bg_and_text {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.header__logo_pic {
+    width: 60px;
+    height: 60px;
+    background-color: #363326;
+}
+
+.header__logo_text {
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #363326;
+}
+
+.header__logo_text_name {
+    font-size: 32px;
+}
+
+.header__logo_text_desc {
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+/* Menu items */
+
+.navigation {
+    display: flex;
+    margin-top: 50px;
+}
+.navigation__menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__menu_list li {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.navigation__menu_list li:first-child {
+    margin-left: 0px;
+}
+
+.navigation__menu_list:last-child {
+    margin-right: 40px;
+}
+
+.navigation__menu_list li a {
+    color: #363326;
+}
