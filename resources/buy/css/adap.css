@@ -126,4 +126,23 @@
     .btn-menu {
         top: 30px;
     }
+
+    .desc__content_wrap {
+        font-size: 10px;
+    }
+
+    .desc__content_author_wrap,
+    .desc__content_date_wrap {
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+    }
+
+    .desc__content_date_wrap {
+        text-align: right;
+    }
+
+    .desc__content_desc {
+        line-height: 15px;
+    }
 }

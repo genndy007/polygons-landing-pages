@@ -201,3 +201,58 @@ a {
     font-family: 'Open Sans';
     font-weight: normal;
 }
+
+/* Description and its header */
+
+.desc__header {
+    margin-top: 50px;
+
+    text-align: center;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.desc__content_wrap {
+    background: #fff;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+    border-radius: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.desc__content_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.desc__content_desc {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+    line-height: 20px;
+}
+
+.desc__content_author_text,
+.desc__content_date_text,
+.desc__content_desc_text {
+    font-weight: 600;
+}
