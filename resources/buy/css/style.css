@@ -173,7 +173,8 @@ a {
     text-align: center;
 }
 
-.choice__button {
+.choice__button,
+.return__button {
     background-color: #109648;
     padding: 15px 50px;
     border-radius: 66px;
@@ -255,4 +256,14 @@ a {
 .desc__content_date_text,
 .desc__content_desc_text {
     font-weight: 600;
+}
+
+/* Return button */
+
+.return__button_wrap {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    text-align: center;
 }

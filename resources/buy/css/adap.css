@@ -145,4 +145,8 @@
     .desc__content_desc {
         line-height: 15px;
     }
+
+    .return__button {
+        font-size: 11px;
+    }
 }
