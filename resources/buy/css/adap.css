@@ -99,6 +99,28 @@
     .choice__export_all div {
         font-size: 10px;
     }
+
+    .footer__name {
+        font-size: 18px;
+    }
+
+    .footer__slogan {
+        font-size: 12px;
+    }
+
+    .footer__pic1 {
+        display: none;
+    }
+
+    .footer__rights {
+        font-size: 8px;
+    }
+
+    .footer__services li,
+    .footer__networks li,
+    .footer__connect li {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -148,5 +170,26 @@
 
     .return__button {
         font-size: 11px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__name_slogan,
+    .footer__rights,
+    .footer__services li,
+    .footer__networks li,
+    .footer__connect li {
+        text-align: center;
+    }
+
+    .footer__connect li {
+        margin-left: 40px;
+    }
+
+    .footer__name_slogan,
+    .footer__rights {
+        margin-right: 40px;
     }
 }
