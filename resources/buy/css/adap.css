@@ -87,6 +87,18 @@
     .navigation {
         display: none;
     }
+
+    .choice {
+        flex-direction: column;
+    }
+
+    .choice__pricing_wrap {
+        margin-top: 40px;
+    }
+
+    .choice__export_all div {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 600px) {
