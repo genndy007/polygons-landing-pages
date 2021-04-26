@@ -7,6 +7,104 @@
     <title>Покупка арта</title>
 </head>
 <body>
-    И тут пусто!
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__logo_with_bg_and_text">
+                <div class="header__logo_wrapper">
+                    <img src="./resources/index/img/logo.png" alt="Logo" class="header__logo_pic">
+                </div>
+                <div class="header__logo_text">
+                    <h1 class="header__logo_text_name">Многоугольники</h1>
+                    <h3 class="header__logo_text_desc">Картины на заказ на любую тему</h3>
+                </div>
+            </div>
+            <div class="navigation__whole">
+                <nav class="navigation">
+                    <ul class="navigation__menu_list">
+                        <li><a href="./arts.html">Арты</a></li>
+                        <li><a href="./arts.html">Постеры</a></li>
+                        <li><a href="./arts.html">Мерч</a></li>
+                        <li><a href="./arts.html">Студия</a></li>
+                    </ul>
+                </nav>
+    
+                <!-- Burger menu -->
+                <div class="burger__menu">
+                    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+                    <label class="btn-menu" for="hmt">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                        <span class="third"></span>
+                    </label>
+                    <ul class="hidden-menu">
+                        <li><a href="./arts.html">Арты</a></li>
+                        <li><a href="./arts.html">Постеры</a></li>
+                        <li><a href="./arts.html">Мерч</a></li>
+                        <li><a href="./arts.html">Студия</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="choiceheading__wrap">
+        <h2 class="choiceheading">Ваш выбор</h2>
+    </div>
+
+
+    <div class="choice">
+        <div class="choice__pic_wrap">
+            <img src="./resources/buy/img/cyberpunk.jpg" alt="Cyberpunk" class="choice__pic">
+        </div>
+        <div class="choice__pricing_wrap">
+            <h3 class="choice__name">“Cyberpunk 2077”. Винсент</h3>
+            <p class="choice__price">199 ₴</p>
+            <div class="choice__button_wrap">
+                <a href="./buy.html" class="choice__button">Купить</a>
+            </div>
+
+            <div class="choice__export_all">
+                <div class="choice__export_studio">
+                    <span class="choice__export_studio_text">Самовывоз из студии:</span>
+                    <span class="choice__export_studio_price">Бесплатно</span>
+                </div>
+                
+                <div class="choice__export_post">
+                    <span class="choice__export_post_text">Самовывоз из Новой Почты:</span>
+                    <span class="choice__export_post_price">40 ₴</span>
+                </div>
+                
+                <div class="choice__export_courier">
+                    <span class="choice__export_courier_text">Курьер по вашему адресу:</span>
+                    <span class="choice__export_courier_price">80 ₴</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="desc__header_wrap">
+        <h2 class="desc__header">Описание постера</h2>
+    </div>
+
+    <div class="desc__content_wrap">
+        <div class="desc__content_heading">
+            <div class="desc__content_author_wrap">
+                <span class="desc__content_author_text">Автор:</span>
+                <span class="desc__content_author_name">Lorem Ipsum</span>
+            </div>
+            <div class="desc__content_date_wrap">
+                <span class="desc__content_date_text"></span>
+                <span class="desc__content_date_name"></span>
+            </div>
+        </div>
+        <p class="desc__content_desc">Процесс создания: постер был создан по случаю выхода компьютерной игры Cyberpunk 2077, художник был вдохновлен сюжетом и судьбой главного героя. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+
+    <div class="return__button_wrap">
+        <a href="./arts.html" class="return__button"></a>
+    </div>
+
 </body>
 </html>
